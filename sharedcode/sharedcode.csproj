@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TestClassYup.cs" />
+    <Compile Include="filesystem\FileSystem.cs" />
+    <Compile Include="filesystem\IReadResponse.cs" />
+    <Compile Include="filesystem\ReadResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
