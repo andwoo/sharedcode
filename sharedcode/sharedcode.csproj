@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\Command.cs" />
+    <Compile Include="Commands\CommandBinder.cs" />
+    <Compile Include="Commands\ICommandBinder.cs" />
     <Compile Include="EventDispatcher\EventDispatcher.cs" />
     <Compile Include="EventDispatcher\IEventDispatcher.cs" />
     <Compile Include="FileSystem\FileSystem.cs" />
