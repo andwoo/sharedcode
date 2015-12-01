@@ -42,9 +42,11 @@
   <ItemGroup>
     <Compile Include="Commands\Command.cs" />
     <Compile Include="Commands\CommandBinder.cs" />
-    <Compile Include="Commands\CommandSequencer.cs" />
+    <Compile Include="Commands\CommandList.cs" />
+    <Compile Include="Commands\CommandSequence.cs" />
     <Compile Include="Commands\ICommandBinder.cs" />
-    <Compile Include="Commands\ICommandSequencer.cs" />
+    <Compile Include="Commands\ICommandList.cs" />
+    <Compile Include="Commands\ICommandSequence.cs" />
     <Compile Include="EventDispatcher\EventDispatcher.cs" />
     <Compile Include="EventDispatcher\IEventDispatcher.cs" />
     <Compile Include="FileSystem\FileSystem.cs" />
@@ -53,7 +55,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton\Singleton.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

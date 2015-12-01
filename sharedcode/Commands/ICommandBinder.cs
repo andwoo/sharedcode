@@ -2,10 +2,12 @@
 
 namespace sharedcode
 {
-  public interface ICommandBinder
+  public interface ICommandBinder : IDisposable
   {
-    ICommandSequencer Bind<TCommand>(IComparable commandTrigger) where TCommand : Command, new();
-    void UnBind<TCommand>(IComparable commandTrigger) where TCommand : Command;
+    ICommandList Bind(IComparable commandTrigger);
+    bool HasBinding(IComparable commandTrigger);
+    void UnBind(IComparable commandTrigger);
     void UnBindAll();
+    void Trigger(IComparable commandTrigger);
   }
 }
