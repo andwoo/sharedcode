@@ -50,8 +50,11 @@
     <Compile Include="EventDispatcher\EventDispatcher.cs" />
     <Compile Include="EventDispatcher\IEventDispatcher.cs" />
     <Compile Include="FileSystem\FileSystem.cs" />
+    <Compile Include="Pool\IPoolable.cs" />
+    <Compile Include="Pool\IPool.cs" />
     <Compile Include="FileSystem\IReadResponse.cs" />
     <Compile Include="FileSystem\ReadResponse.cs" />
+    <Compile Include="Pool\Pool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton\Singleton.cs" />
   </ItemGroup>

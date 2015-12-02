@@ -61,6 +61,7 @@
     <Compile Include="TestCommands\AssertSuccessCommand.cs" />
     <Compile Include="TestCommands\RetainFailCommand.cs" />
     <Compile Include="TestCommands\RetainSuccessCommand.cs" />
+    <Compile Include="PoolTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\sharedcode\sharedcode.csproj">
